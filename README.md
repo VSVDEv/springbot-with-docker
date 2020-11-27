@@ -18,11 +18,11 @@ create docker image
 6.go to http://localhost:9090/message
 
 7.stop app 
-  docker stop id container
+  "docker stop id_container"
 
 8.you can download image from docker hub:
 "docker pull vsvdevua/spring-docker.jar"
 and do
 "docker run -p 9090:8080 spring-docker.jar" 
   go to http://localhost:9090/message
-"docker stop id container"
+"docker stop id_container"
